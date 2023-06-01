@@ -11,14 +11,14 @@
 ``` shell
 mv .vimrc ~/.vimrc
 ```
-1. h는 좌, l은 우, j는 상, n은 하 입니다.
-2. k는 검색에서 다음 단어를 찾을 때 이용하도록 배열했습니다(qwerty와 같은 자리입니다).
+1. n는 좌, o는 우, i는 상, e는 하 입니다.
+2. 그 외 나머지는 qwerty의 vim키 위치를 그대로 가져왔으나, yank는 j로 paste는 h로 변경했습니다.
 ---
 ### vim editor hjkl key modification for colemak user
 0. put this .vimrc file at your home directory.
 ``` shell
 mv .vimrc ~/.vimrc
 ```
-1. h to left, l to right, j to up, n to down.
-2. k is mapped to move to next word at searching(same key location of qwerty vim). 
+1. n to left, o to right, i to up, e to down.
+2. most of other vim key location follows that of qwerty's. however yank is j and paste is h. 
 
